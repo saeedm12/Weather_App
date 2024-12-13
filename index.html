@@ -1,0 +1,75 @@
+<html>
+  <header>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/index_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Weather</title>
+  </header>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white position-relative ms-5" href="#">
+          <img style="width: 20%;" src="./images/logo@2x.png" alt="WeatherLogo">
+         Weather <br>
+         <span>tagline goes here</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid main-div">
+      
+      <div class="d-flex w-50 mx-auto p-5 align-items-center">
+        <input class="form-control  rounded-pill p-3" placeholder="Find your location" type="search" name="search" id="SearchInput">
+        <button id="SearchBtn" onclick="ShowLocation()" class="bg-primary text-white border-0 rounded-pill py-3 px-5 ">Find</button>
+      </div>
+      <div class="container mt-5">
+        <div id="rowData" class="row">
+        </div>
+      </div>
+    </div>
+    <footer class="py-5 custom-bg">
+      <div class="d-flex justify-content-center align-items-center container">
+          <input placeholder="Enter Your Email to subscribe..." type="email" class="form-control rounded-5 w-50 p-3 ">
+          <button class="bg-primary text-white border-0 rounded-pill me-5 p-3">Subscribe</button> 
+        <div>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>  
+      </div>
+      <p class="text-white w-50 mx-auto mt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </footer>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/main.js"></script>
+  </body>
+</html>

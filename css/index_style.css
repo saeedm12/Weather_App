@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: #1E202B;
+}
+nav
+{
+    background-color: #1E202B;
+    padding: 30px 0px !important;
+}
+.navbar-nav
+{
+margin-left: auto;
+margin-right: 100px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:#009AB6;
+    border: 2px solid #009AB6;
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+.nav-link {
+    color: white;
+    margin: 0px 20px;
+    padding: 5px 20px !important;
+    color:white;
+    border: 2px solid transparent;
+    border-radius: 100px;
+}
+.nav-link:focus
+{
+    color:#009AB6;
+    border: 2px solid #009AB6;
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+.nav-link:hover
+{
+ border-color: #009AB6;
+ color: #009AB6;
+}
+a span
+{
+    font-size: 10px;
+    position: absolute;
+    left: 20%;
+    color: #ACAEB5;
+}
+.main-div
+{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+.form-control
+{
+    background-color: #1E202B;
+    color:white;
+    border: unset;
+}
+.form-control:focus
+{
+    background-color: #1E202B;
+    box-shadow: unset;
+    color: white;
+}
+.form-control::placeholder
+{
+    color: #ACAEB5;
+}
+.MyCard
+{
+    background-color: rgb(50,53,68);
+}
+
+.MyCard-2
+{
+    background-color: rgb(38,41,54);
+}
+.CardHeader
+{
+    background-color: #2D303D;
+    padding: 20px 10px;
+}
+.CardHeader-2
+{
+    background-color: rgb(34,37,48);
+    padding: 20px 10px; 
+}
+.row>*
+{
+    padding: 0;
+}
+
+.fit-content
+{
+    width: fit-content;
+}
+.Degree
+{
+    font-size: 80px;
+}
+.CardFooter img
+{
+    width: 25%;
+    margin: 5px;
+}
+.CardFooter p 
+{
+    color: #ACAEB5;
+}
+.fit-content
+{
+    width: fit-content;
+}
+.custom-bg
+{
+background-color: rgb(38,41,54);
+}
+footer i
+{
+    font-size: 20px;
+    color:#009AD8;
+    margin: 0px 10px;
+    background-color: #1E202B;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+footer i:hover
+{
+    color: white;
+    background-color: #009AD8;
+}
+.info-div
+{
+    padding: 280px 15px 15px 15px;
+    width: 40%;
+}
+.custom-bg i 
+{
+    color: #009AD8;
+}
+.contact-us
+{
+    width: 40%;
+}
+.contact-us .form-control
+{
+    background-color: #1E202B;
+    color:white;
+    border: 1px solid #ACAEB5;
+}
+.contact-us .form-control:hover
+{
+    border-color: #009AD8;
+}
+.contact-us.form-control:focus
+{
+    background-color: #1E202B;
+    box-shadow: #009AD8;
+    color: white;
+}
+a.fit-content
+{
+    text-decoration: none;
+}
+a.fit-content:hover
+{
+    text-decoration: underline;
+}
+
